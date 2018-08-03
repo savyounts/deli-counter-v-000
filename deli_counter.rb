@@ -9,7 +9,7 @@ def line(katz_deli)
     line = "The line is currently: "
     katz_deli.each_with_index do |name, index|
       place = index + 1 
-     line << " #{place}. #{name}" 
+     line << "#{place}. #{name}" 
   end 
 end
   puts line 
