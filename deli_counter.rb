@@ -10,9 +10,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       place = index + 1 
      line << " #{place}. #{name}" 
-  end 
+     puts line 
 end
-  puts line 
 end    
 
 def take_a_number (katz_deli, name)
