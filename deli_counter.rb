@@ -10,6 +10,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       place = index + 1 
      line << " #{place}. #{name}" 
+   end
      puts line 
 end
 end    
