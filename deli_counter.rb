@@ -11,6 +11,7 @@ def line(katz_deli)
       place = index + 1 
      line << ", #{place}. #{name}" 
   end 
+end
   puts line 
 end    
 
